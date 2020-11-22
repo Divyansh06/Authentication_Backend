@@ -1,0 +1,22 @@
+{
+  "Auth_Routes": [
+    {
+      "method": "POST",
+      "path": "auth/loginUser",
+      "payload": "email, password",
+      "responses": "userId, token, expiresIn"
+    },
+    {
+      "method": "POST",
+      "path": "auth/createUser",
+      "payload": "name, email, password",
+      "responses": "userid, name, email, password"
+    },
+    {
+      "method": "GET",
+      "path": "auth/getallpost",
+      "payload": "json web token",
+      "responses": "All Post Data"
+    }
+  ]
+}
